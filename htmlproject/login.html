@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <p>cars360</p>
+                <nav class="navbar">
+                    <a href="index .html">Home</a><span>|</span>
+                    <a href="luxury.html">Luxury</a><span>|</span>
+                    <a href="sports.html">Sport</a><span>|</span>
+                    <a href="#">Register</a>
+                </nav> 
+            </div>
+            
+            <br><br><br><br>
+            <div class="main-content">
+                <h1>Register</h1><br>
+                <form action="">
+                    <fieldset>
+                        <legend>Details</legend><br>
+                        <label for="username">Username:</label><br>
+                        <input type="text" size="20" required name="username"><br><br>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="text" pattern="[0-9]{10}" placeholder="0123456789" name="phoneno"><br><br>
+                        <label for="username">E-mail ID:</label><br>
+                        <input type="email" size="20" required name="email" placeholder="email@go.co"><br><br>
+                        <label for="password">Set Password:</label><br>
+                        <input type="password" name="password"><br><br>
+                        <label for="age">Age: (above 18)</label><br>
+                        <input type="text" min="18" max="100" name="age" required><br><br>
+                        <label for="city">City:</label><br>
+                        <select name="city">
+                            <option>Bangalore</option>
+                            <option>Mumbai</option>
+                            <option>Kolkata</option>
+                            <option>Chennai</option>
+                        </select><br><br>
+                        <label for="notif">Send notification through email?</label><br>
+                        <input type="radio" name="notif">&nbsp;&nbsp;Yes<br>
+                        <input type="radio" name="notif">&nbsp;&nbsp;No
+                        <br><br>
+                        <div class="buttondiv">
+                            <input type="submit" name="submit" class="button">
+                            <input type="reset" name="reset" class="button">
+                        </div>
+                        <br><br>
+                    </fieldset><br>
+                </form>
+                <div class="hr"></div><br>
+                <form action="">
+                    <fieldset>
+                        <legend>Survey</legend><br>
+                        <label for="feedback">What can we add?</label><br>
+                        <input type="checkbox" name="feedback">&nbsp;&nbsp; Cars<br>
+                        <input type="checkbox" name="feedback">&nbsp;&nbsp; Car Brands<br>
+                        <input type="checkbox" name="feedback">&nbsp;&nbsp; Information on Cars<br>
+                        <input type="checkbox" name="feedback">&nbsp;&nbsp; Reviews from experts<br>
+                        <br>
+                        <label for="comments" name="comments">Comments / suggestions:</label><br>
+                        <textarea cols="100" rows="6"></textarea><br><br>
+                        <div class="buttondiv">
+                            <input type="submit" name="submit" class="button">
+                            <input type="reset" name="reset" class="button">
+                        </div><br>
+                    </fieldset>
+                    <br><br>
+                </form>
+            </div>
+
+            <footer>
+                <div class="logo">
+                    <img src="images/logo.svg" alt="">
+                    <p>cars360</p>
+                </div>
+                
+                <div class="footcontent">
+                    <div class="content1">
+                        <p>	&#169; project by amrita students</p>
+                    </div>
+                    <span>|</span>
+                    <div class="content2">
+                        <h4>connect with us</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/">facebook</a></li>
+                            <li><a href="https://twitter.com/explore">twitter</a></li>
+                            <li><a href="https://www.instagram.com/?hl=en">instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <br><br>
+            </footer>
+        </div>
+    </body>
+</html>  
